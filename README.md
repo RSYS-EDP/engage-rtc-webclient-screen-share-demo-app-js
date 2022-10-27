@@ -50,10 +50,10 @@ Update the configuration in `engage-digital-click-to-call-config.js` with proper
 
 - **engageDomain:** Engage Digital RTC domain name. Get this domain name from Engage Platform Admin. In this demo you can use the publicly hosted **rtc.engagedigital.ai**
 - **callTo:** The number to dial to. It should be a proper service number. Creating the service and assigning it to a number can be done through ESMP-UI
-In this demo, you can use the number 9070707120 which is available in publicly hosted ESMP portal (https://portal.engagedigital.ai).\
-Note: When you dial to this number a video announcement will be played.\
+In this demo, you can use the number 9070707120 which is available in publicly hosted ESMP portal (https://portal.engagedigital.ai). \
+Note: When you dial to this number a video announcement will be played. \
 (You can also define the roomId in callTo to with "conf:" prefix to join to the room. i.e, `callTo: 'conf:<<Room ID>>'` \
-  Example ```callTo: 'conf:RR-b6187b27-a471-4358-b66d-d90df92408a5')```,
+  Example ```callTo: 'conf:RR-b6187b27-a471-4358-b66d-d90df92408a5'```),
 - **callType:** Type of call. Valid values are video or audio.
 - **callBtnId:** Id of the Call Button. Make sure the same id is used in your html call button. In this example it is `engage-digital-click-to-call-btn`.
 - **localVideoId:** Id of the Local Video element. Make sure the same id is used in your html local video element. In this example it is `engage-digital-local-video`.
@@ -62,8 +62,8 @@ Note: When you dial to this number a video announcement will be played.\
 - **disconnectCallText:** The text to be displayed on call button once the call is established or in the process of connecting. So the user will get the context and can disconnect the call.
 - **alertDivId:** If this div id is given, important events will be displayed here. This can be helpful while debugging the application. In this example it is `engage-digital-alert`
 - **consoleLog:** If its true, click-to-call logs as well as EngageDigital logs will be written to browser console
-- **joinWithVideoMuted:** Join the call with local video muted or not. When it's true caller will join the call with local video muted.\
-- **screenShareBtnId:** Id of the Screenshare Button. Make sure the same id is used in your html Screen Share button. In this example it is `engage-digital-click-to-share-btn`
+- **joinWithVideoMuted:** Join the call with local video muted or not. When it's true caller will join the call with local video muted.
+- **screenShareBtnId:** Id of the Screenshare Button. Make sure the same id is used in your html Screen Share button. In this example it is `engage-digital-click-to-share-btn`.
 - **screenShareText:** The text to be displayed for screenshare button once the call is establihsed.
 - **screenUnshareText:** The text to be displayed on screensahre button after screen is being shared. So that user will get the context and can stop the screen share.
 
