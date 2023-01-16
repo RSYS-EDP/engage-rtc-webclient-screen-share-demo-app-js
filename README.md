@@ -32,7 +32,7 @@ Example:
 <div id='engage-digital-alert'></div>
 ```
 
-Create a button, so that user can click on this button to share/unshare the screen
+Create a button, so that user can click on this button to share/unshare the screen\
 Example:
 ```html
 <button id="engage-digital-click-to-share-btn">Screen Share</button> 
