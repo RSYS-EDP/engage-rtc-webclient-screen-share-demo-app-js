@@ -375,7 +375,7 @@ function onNewEngageSession(session) {
   });
 
   /**
-   * On this event attach the screenshare stream to the remote video element
+   * On this event remove the screenshare stream from the remote video element
    */
   engageDigitalSession.addEventHandler('screensharestopped', () => {
     engageLog('Got screensharestopped event');
